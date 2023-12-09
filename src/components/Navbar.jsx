@@ -32,7 +32,7 @@ export const Navbar = () => {
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link"><Link className='link-1'>Disabled</Link></a>
+          <a class="nav-link"><Link className='link-1' to='/about'>About Us</Link></a>
         </li>
       </ul>
       <form class="d-flex" role="search">
