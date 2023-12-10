@@ -18,22 +18,16 @@ export const Navbar = () => {
           <a class="nav-link active" aria-current="page"><Link className='link-1'>Home</Link></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"><Link className='link-1'>Link</Link></a>
+          <a class="nav-link"><Link className='link-1' to='/about'>Products</Link></a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><Link><a class="dropdown-item">Action</a></Link></li>
-            <li><Link><a class="dropdown-item">Action</a></Link></li>
-            <li><Link><a class="dropdown-item">Action</a></Link></li>
-
-          </ul>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link"><Link className='link-1' to='/about'>About Us</Link></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link"><Link className='link-1'>Log In</Link></a>
+        </li>
+        
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
