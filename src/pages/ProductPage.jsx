@@ -1,14 +1,15 @@
 import React from 'react'
-import { About } from '../components/About/About'
 import { Navbar } from '../components/Navbar'
+import { Products } from '../components/Products/Products'
 import { Footer } from '../components/Footer/Footer'
 
-export const AboutPage = () => {
+
+export const ProductPage = () => {
   return (
     <div>
-       <Navbar/>
-       <About/>
-       <Footer/>
+        <Navbar/>
+        <Products/>
+        <Footer/>
     </div>
   )
 }
