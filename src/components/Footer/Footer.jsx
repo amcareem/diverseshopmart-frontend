@@ -1,7 +1,8 @@
 import React from 'react'
-import visa from '../assets/footer/visa.jpg'
-import mastercard from '../assets/footer/mastercard.jpg'
-import ae from '../assets/footer/ae.jpg'
+import visa from '../../assets/footer/visa.jpg'
+import mastercard from '../../assets/footer/mastercard.jpg'
+import ae from '../../assets/footer/ae.jpg'
+import './Footer.css'
 
 
 export const Footer = () => {
