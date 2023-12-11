@@ -7,10 +7,20 @@ h1{
     color: rgb(0, 3, 0);
   
   }
+
   
   .card {
     width: 11 rem;
     transition: transform 0.3s ease-in-out;
+  }
+  .card a {
+    font-size: 14px;
+    text-decoration: none; /* Remove underline */
+    color: white; 
+  }
+  
+  .card a:hover {
+    text-decoration: underline; 
   }
   
   .card:hover {

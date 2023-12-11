@@ -12,7 +12,7 @@ import { SignupPage } from './pages/SignupPage';
 
 function App() {
   return (
-    <Router>nup
+    <Router>
       <div className="App">
         <Routes>
       <Route exact path='/' element={<HomePage/>}/>

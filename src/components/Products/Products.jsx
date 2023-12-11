@@ -8,6 +8,7 @@ import watch from '../../assets/flash/watch.jpg';
 import pb from '../../assets/flash/pb.jpg';
 import Rating from 'react-rating-stars-component';
 import moonbtl from '../../assets/moonbtl.webp';
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,7 +29,7 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+    <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
   </div>
 </div>
 
@@ -45,7 +46,8 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+    <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
   </div>
 </div>
 
@@ -62,7 +64,7 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+    <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
   </div>
 </div>
 
@@ -79,7 +81,7 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+    <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
   </div>
 </div>
 
@@ -96,7 +98,7 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+    <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
   </div>
 </div>
 
@@ -115,7 +117,7 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+    <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
   </div>
 </div>
 
@@ -132,7 +134,8 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
   </div>
 </div>
 
@@ -149,7 +152,8 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+       <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
   </div>
 </div>
 
@@ -166,7 +170,8 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
   </div>
 </div>
 
@@ -183,7 +188,8 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
   </div>
 </div>
 
@@ -200,7 +206,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -217,7 +225,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -236,7 +246,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -253,7 +265,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -270,7 +284,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -287,7 +303,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -304,7 +322,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -321,7 +341,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -338,7 +360,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -357,7 +381,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
 
@@ -374,7 +400,9 @@ export const Products = () => {
                         inactiveColor="#ddd"
                         edit={false} 
                     />
-    <a className="btn btn-primary">Shop Now</a>
+        <a className="btn btn-primary"><Link to='/signup'>Shop now</Link></a>
+
+
   </div>
 </div>
     </div>
