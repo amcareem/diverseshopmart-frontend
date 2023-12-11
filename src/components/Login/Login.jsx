@@ -36,7 +36,7 @@ export const Login = () => {
       </div>
 
       <div class="additional-options">
-        <p>Don't have an account? <a><Link>Sign up</Link></a></p>
+        <p>Don't have an account? <a><Link to='/signup'>Sign up</Link></a></p>
         <p><a><Link>Forgot your password?</Link></a></p>
       </div>
     </form>
