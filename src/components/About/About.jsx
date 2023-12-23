@@ -38,7 +38,6 @@ export const About = () => {
           <h3>Matrix Mind Consultancy</h3>
           <p>Matrix Mind Consultancy is a new startup company in Sri Lanka which aims to new heights.</p>
         </div>
-        {/* Add more team members here */}
       </section>
       
       <section style={aboutStyle.section}>
