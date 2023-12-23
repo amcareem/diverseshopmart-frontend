@@ -12,35 +12,29 @@ export const Signup = () => {
       </div>
 
       <form className="signup-form">
+
         <div className="form-group">
-          
           <input type="text" placeholder='name' required/>
         </div>
 
         <div className="form-group">
-          
           <input type="email" placeholder='Email' required/>
         </div>
 
         <div className="form-group">
-          
           <input type="password"  placeholder='password' required/>
         </div>
 
-      
         <div className="form-group">
-          
           <input type="text" placeholder='store name'/>
         </div>
 
         <div className="form-group">
-         
           <textarea placeholder='Store Description'></textarea>
         </div>
 
      
         <div className="form-group">
-        
           <input placeholder='Preferences' type="text"/>
         </div>
 
@@ -49,7 +43,6 @@ export const Signup = () => {
         </div>
       </form>
 
-    
     </div>
     </div>
   )
