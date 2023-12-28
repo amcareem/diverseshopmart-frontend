@@ -9,6 +9,11 @@ import { ResetPwd } from './pages/ResetPwd';
 import { Mobile } from './pages/Mobile';
 import { Tablet } from './pages/Tablet';
 import { Laptop } from './pages/Laptop';
+import { MobAcc } from './pages/MobAcc';
+import { Audio } from './pages/Audio';
+import { ComAcc } from './pages/ComAcc';
+import { Fragrance } from './pages/Fragrance';
+
 
 function App() {
   return (
@@ -24,6 +29,15 @@ function App() {
       <Route exact path='/mobile' element={<Mobile/>}/>
       <Route exact path='/tablet' element={<Tablet/>}/>
       <Route exact path='/laptop' element={<Laptop/>}/>
+      <Route exact path='/moba' element={<MobAcc/>}/>
+      <Route exact path='/audio' element={<Audio/>}/>
+      <Route exact path='/coma' element={<ComAcc/>}/>
+      <Route exact path='/frag' element={<Fragrance/>}/>
+
+
+      
+
+
 
         </Routes>
         

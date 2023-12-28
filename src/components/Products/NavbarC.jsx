@@ -18,14 +18,14 @@ export const NavbarC = () => {
             </ul>
           </li>
           <li>
-            Electronic Accessories
+          <Link to='/moba'>Electronic Accessories</Link>
             <span className="dropdown-indicator"></span>
             <ul className="dropdown">
             
-              <li><Link to='/mobileaccessories'>Mobile Accessories</Link></li>
+              <li><Link to='/moba'>Mobile Accessories</Link></li>
               <li><Link to='/audio'>Audio</Link></li>
              
-              <li><Link to='/computeraccessories'>Computer Accessories</Link></li>
+              <li><Link to='/coma'>Computer Accessories</Link></li>
 
             </ul>
           </li>
@@ -34,7 +34,7 @@ export const NavbarC = () => {
             <span className="dropdown-indicator"></span>
             <ul className="dropdown">
               
-              <li><Link to='/fragrances'>Fragrances</Link></li>
+              <li><Link to='/frag'>Fragrances</Link></li>
               <li><Link to='/skincare'>Skin care</Link></li>
           
             </ul>
