@@ -6,8 +6,8 @@ export const Signup = () => {
     <div className='signup-modal'>
         <div className="signup-modal-content">
       <h1 className="signup-modal-title">Marketplace Signup</h1>
-      <div className="role-buttons">
-        <button>Buyer Signup</button>
+      <div className="role-buttons mb-3">
+        <button className="me-3">Buyer Signup</button>
         <button>Seller Signup</button>
       </div>
 
@@ -30,7 +30,11 @@ export const Signup = () => {
         </div>
 
         <div className="form-group">
+
           <textarea placeholder='Store Description'></textarea>
+
+          <textarea placeholder='Store Description' className="form-control w-100"></textarea>
+
         </div>
 
      
