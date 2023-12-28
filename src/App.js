@@ -8,6 +8,7 @@ import { SignupPage } from './pages/SignupPage';
 import { ResetPwd } from './pages/ResetPwd';
 import { Mobile } from './pages/Mobile';
 import { Tablet } from './pages/Tablet';
+import { Laptop } from './pages/Laptop';
 
 function App() {
   return (
@@ -22,9 +23,7 @@ function App() {
       <Route exact path='/reset' element={<ResetPwd/>}/>
       <Route exact path='/mobile' element={<Mobile/>}/>
       <Route exact path='/tablet' element={<Tablet/>}/>
-
-
-
+      <Route exact path='/laptop' element={<Laptop/>}/>
 
         </Routes>
         

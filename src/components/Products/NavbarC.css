@@ -59,6 +59,10 @@
     margin-left: 5px;
     display: none; 
 }
+.nav-menu li a{
+    text-decoration: none;
+    color: inherit;
+}
 
   .nav-menu .dropdown a{
     text-decoration: none;

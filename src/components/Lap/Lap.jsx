@@ -1,40 +1,39 @@
 import React from 'react'
-import './Tab.css'
+import './Lap.css'
 import { Link } from 'react-router-dom'
-import tab1 from '../../assets/tab/tab1.webp'
+import lap1 from '../../assets/lap/lap1.webp'
 import Rating from 'react-rating-stars-component';
-import tab2 from '../../assets/tab/tab2.webp'
-import tab3 from '../../assets/tab/tab3.jpeg'
-import tab4 from '../../assets/tab/tab4.webp'
-import tab7 from '../../assets/tab/tab7.webp'
-import tab5 from '../../assets/tab/tab5.webp'
-import tab6 from '../../assets/tab/tab6.webp'
-import tab8 from '../../assets/tab/tab8.webp'
-import tab9 from '../../assets/tab/tab9.webp'
-import tab10 from '../../assets/tab/tab10.webp'
-import tab11 from '../../assets/tab/tab11.webp'
+import lap2 from '../../assets/lap/lap2.webp'
+import lap3 from '../../assets/lap/lap3.webp'
+import lap4 from '../../assets/lap/lap4.webp'
+import lap5 from '../../assets/lap/lap5.webp'
+import lap6 from '../../assets/lap/lap6.webp'
+import lap7 from '../../assets/lap/lap7.webp'
+import lap8 from '../../assets/lap/lap8.webp'
+import lap9 from '../../assets/lap/lap9.webp'
+import lap10 from '../../assets/lap/lap10.webp'
+import lap11 from '../../assets/lap/lap11.webp'
+import lap12 from '../../assets/lap/lap12.webp'
 
 
 
-
-export const Tab = () => {
+export const Lap = () => {
   return (
-    <div className="tab">
+    <div className="lap">
     
             <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a><Link to='/'>Home</Link></a></li>
                 <li class="breadcrumb-item"><a>Gadgets</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Tablets</li>
+                <li class="breadcrumb-item active" aria-current="page">Laptops</li>
             </ol>
             </nav>
 
             <div class="card">
-                <img src={tab1} class="card-img-top" alt=""/>
+                <img src={lap1} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">
-Samsung Galaxy Tab A7 Lite LTE 3GB RAM 32GB</h5>
-                    <p class="card-text">LKR. 39,500 </p>
+                    <h5 class="card-title">Apple MacBook Pro Retina i7 and i5 Laptop</h5>
+                    <p class="card-text">LKR. 105,500 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -47,11 +46,11 @@ Samsung Galaxy Tab A7 Lite LTE 3GB RAM 32GB</h5>
             </div>
 
             <div class="card">
-                <img src={tab2} class="card-img-top" alt=""/>
+                <img src={lap2} class="card-img-top" alt=""/>
                 <div class="card-body">
                     <h5 class="card-title">
-12" COLOUR LCD Writing (lwtk) Tablet for Kids 12 Inch,</h5>
-                    <p class="card-text">LKR. 3,250 </p>
+HP 15s-DU1114TU Laptop JET BLACK MS Office</h5>
+                    <p class="card-text">LKR. 140,250 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -64,11 +63,10 @@ Samsung Galaxy Tab A7 Lite LTE 3GB RAM 32GB</h5>
             </div>
 
             <div class="card">
-                <img src={tab3} class="card-img-top" alt=""/>
+                <img src={lap3} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">
-TCL Tab 10 FHD 4G 3GB RAM 64GB - 1 Year Singer Warranty</h5>
-                    <p class="card-text">LKR. 43,000 </p>
+                    <h5 class="card-title">HP EliteBook 840 G5 i5/i7 8th Gen</h5>
+                    <p class="card-text">LKR. 143,000 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -81,10 +79,10 @@ TCL Tab 10 FHD 4G 3GB RAM 64GB - 1 Year Singer Warranty</h5>
             </div>
 
             <div class="card">
-                <img src={tab4} class="card-img-top" alt=""/>
+                <img src={lap4} class="card-img-top" alt=""/>
                 <div class="card-body">
                     <h5 class="card-title">
-DOOGEE T10 (8+7GB Ram/128GB Rom)</h5>
+DOOGEE T10 (8+7GB Ram/128GB Rom)HP EliteBook 4th Gen</h5>
                     <p class="card-text">LKR. 63,500 </p>
                     <Rating
                         count={5}
@@ -98,11 +96,11 @@ DOOGEE T10 (8+7GB Ram/128GB Rom)</h5>
             </div>
 
             <div class="card">
-                <img src={tab5} class="card-img-top" alt=""/>
+                <img src={lap5} class="card-img-top" alt=""/>
                 <div class="card-body">
                     <h5 class="card-title">
-OCTA Sanetra 3GB + 32GB 10.1inch Tablet </h5>
-                    <p class="card-text">LKR. 59,690 </p>
+[REFURBISHED] Lenovo Thinkpad X230 , Core i5 3rd gen 8GB Ram</h5>
+                    <p class="card-text">LKR. 49,690 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -115,10 +113,11 @@ OCTA Sanetra 3GB + 32GB 10.1inch Tablet </h5>
             </div>
 
             <div class="card">
-                <img src={tab6} class="card-img-top" alt=""/>
+                <img src={lap6} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">Green Lion Learning Tablet 8" | 2GB 64GB | Wi-Fi & SIM</h5>
-                    <p class="card-text">LKR. 25,990 </p>
+                    <h5 class="card-title">
+MacBook Pro Retina 13inch i7 16GB 256GB SSD Touchbar</h5>
+                    <p class="card-text">LKR. 139,500 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -132,11 +131,27 @@ OCTA Sanetra 3GB + 32GB 10.1inch Tablet </h5>
 
 
             <div class="card">
-                <img src={tab7} class="card-img-top" alt=""/>
+                <img src={lap7} class="card-img-top" alt=""/>
                 <div class="card-body">
                     <h5 class="card-title">
-Samsung Galaxy Tab A8 Lte Cellular And Wifi 3GB RAM 32GB</h5>
-                    <p class="card-text">LKR. 76,000 </p>
+Lenovo ThinkPad X1 carbon i7 7th gen 16gb Ram 256GB SSD Laptop</h5>
+                    <p class="card-text">LKR. 143,500 </p>
+                    <Rating
+                        count={5}
+                        size={24}
+                        value={3} 
+                        activeColor="#f00"
+                        inactiveColor="#ddd"
+                        edit={false} 
+                    />
+                </div>
+            </div>
+
+            <div class="card">
+                <img src={lap8} class="card-img-top" alt=""/>
+                <div class="card-body">
+                    <h5 class="card-title">Lenovo ThinkPad Yoga 260 , Core i5 6th Gen 8GB</h5>
+                    <p class="card-text">LKR. 84,600 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -149,27 +164,9 @@ Samsung Galaxy Tab A8 Lte Cellular And Wifi 3GB RAM 32GB</h5>
             </div>
 
             <div class="card">
-                <img src={tab8} class="card-img-top" alt=""/>
+                <img src={lap9} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">
-
-                    Apple iPad 9th Generation 10.2" Wifi only 2021 64GB Space Gray</h5>
-                    <p class="card-text">LKR. 114,000 </p>
-                    <Rating
-                        count={5}
-                        size={24}
-                        value={4} 
-                        activeColor="#f00"
-                        inactiveColor="#ddd"
-                        edit={false} 
-                    />
-                </div>
-            </div>
-
-            <div class="card">
-                <img src={tab9} class="card-img-top" alt=""/>
-                <div class="card-body">
-                    <h5 class="card-title">Redmi Pad | 6GB RAM | 128GB ROM</h5>
+                    <h5 class="card-title">ASUS Vivobook A1502Z - Intel Core i3 (1215U) 12th Gen, 4GB</h5>
                     <p class="card-text">LKR. 99,500 </p>
                     <Rating
                         count={5}
@@ -183,11 +180,10 @@ Samsung Galaxy Tab A8 Lte Cellular And Wifi 3GB RAM 32GB</h5>
             </div>
 
             <div class="card">
-                <img src={tab10} class="card-img-top" alt=""/>
+                <img src={lap10} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">
-Samsung Galaxy Tab S6 Lite 4GB RAM 64GB Grey</h5>
-                    <p class="card-text">LKR. 139,500 </p>
+                    <h5 class="card-title">Apple MacBook Air 13.3-inch   Core  i5</h5>
+                    <p class="card-text">LKR. 79,500 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -200,10 +196,11 @@ Samsung Galaxy Tab S6 Lite 4GB RAM 64GB Grey</h5>
             </div>
 
             <div class="card">
-                <img src={tab11} class="card-img-top" alt=""/>
+                <img src={lap11} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">Greentel A8 Tab</h5>
-                    <p class="card-text">LKR. 33,500 </p>
+                    <h5 class="card-title">
+Hp Zbook 17 G5 i5 8th gen 16GB RAM 512GB SSD 17inch</h5>
+                    <p class="card-text">LKR. 119,500 </p>
                     <Rating
                         count={5}
                         size={24}
@@ -216,11 +213,10 @@ Samsung Galaxy Tab S6 Lite 4GB RAM 64GB Grey</h5>
             </div>
 
             <div class="card">
-                <img src={tab10} class="card-img-top" alt=""/>
+                <img src={lap12} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">
-Samsung Galaxy Tab S6 Lite 4GB RAM 64GB Grey</h5>
-                    <p class="card-text">LKR. 139,500 </p>
+                    <h5 class="card-title">Hp Zbook 17 G3 i7 6th Gen 16GB DDR4 Ram</h5>
+                    <p class="card-text">LKR. 95,500 </p>
                     <Rating
                         count={5}
                         size={24}

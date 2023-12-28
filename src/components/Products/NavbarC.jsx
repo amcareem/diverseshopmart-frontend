@@ -8,7 +8,7 @@ export const NavbarC = () => {
         
         <ul className='nav-menu'>
           <li>
-            Gadgets
+          <Link to='/mobile'>Gadgets</Link>
             <span className="dropdown-indicator"></span>
             <ul className="dropdown">
               <li><Link to='/mobile'>Mobiles</Link></li>
