@@ -6,8 +6,7 @@ import { ProductPage } from './pages/ProductPage';
 import { LoginPage } from './pages/LoginPage';
 import { SignupPage } from './pages/SignupPage';
 import { ResetPwd } from './pages/ResetPwd';
-
-
+import { Mobile } from './pages/Mobile';
 
 function App() {
   return (
@@ -20,6 +19,8 @@ function App() {
       <Route exact path='/login' element={<LoginPage/>}/>
       <Route exact path='/signup' element={<SignupPage/>}/>
       <Route exact path='/reset' element={<ResetPwd/>}/>
+      <Route exact path='/mobile' element={<Mobile/>}/>
+
 
 
         </Routes>

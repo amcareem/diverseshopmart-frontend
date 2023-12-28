@@ -2,6 +2,8 @@ import logo from '../assets/logo.jpg'
 import React,{useState} from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart  } from '@fortawesome/free-solid-svg-icons';
 
 
 export const Navbar = () => {
@@ -28,11 +30,25 @@ export const Navbar = () => {
           <a class="nav-link"><Link className='link-1' to='/login'>Log In</Link></a>
         </li>
         
+
+          
+        
+        
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+      <li>
+        <div className='nav-login-cart'>
+        
+          <a><Link to='/cart'><FontAwesomeIcon icon={faShoppingCart} /></Link></a>
+          <div className="nav-cart-count">
+            0
+          </div>
+        </div>
+      
+        </li>
     </div>
   </div>
 </nav>
