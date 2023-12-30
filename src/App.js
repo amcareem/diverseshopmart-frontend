@@ -13,6 +13,7 @@ import { MobAcc } from './pages/MobAcc';
 import { Audio } from './pages/Audio';
 import { ComAcc } from './pages/ComAcc';
 import { Fragrance } from './pages/Fragrance';
+import { SkinCare } from './pages/SkinCare';
 
 
 function App() {
@@ -33,9 +34,10 @@ function App() {
       <Route exact path='/audio' element={<Audio/>}/>
       <Route exact path='/coma' element={<ComAcc/>}/>
       <Route exact path='/frag' element={<Fragrance/>}/>
+      <Route exact path='/skincare' element={<SkinCare/>}/>
 
 
-      
+
 
 
 
