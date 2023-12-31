@@ -8,44 +8,24 @@ export const NavbarC = () => {
         
         <ul className='nav-menu'>
           <li>
-          <Link to='/mobile'>Gadgets</Link>
-            <span className="dropdown-indicator"></span>
-            <ul className="dropdown">
-              <li><Link to='/mobile'>Mobiles</Link></li>
-              <li><Link to='/tablet'>Tablets</Link></li>
-              <li><Link to='/laptop'>laptops</Link></li>
-              
-            </ul>
-          </li>
-          <li>
-          <Link to='/moba'>Electronic Accessories</Link>
-            <span className="dropdown-indicator"></span>
-            <ul className="dropdown">
+          <Link to='/mobile'>Mobiles</Link>
             
-              <li><Link to='/moba'>Mobile Accessories</Link></li>
-              <li><Link to='/audio'>Audio</Link></li>
-             
-              <li><Link to='/coma'>Computer Accessories</Link></li>
-
-            </ul>
           </li>
           <li>
-            Health & Beauty
-            <span className="dropdown-indicator"></span>
-            <ul className="dropdown">
-              
-              <li><Link to='/frag'>Fragrances</Link></li>
-              <li><Link to='/skincare'>Skin care</Link></li>
-          
-            </ul>
+          <Link to='/coma'>Computer Accessories</Link>
+            
+          </li>
+          <li>
+          <Link to='/frag'>Fragrances</Link>
+            
           </li>
           <li>
             Men's Fashion
             <span className="dropdown-indicator"></span>
             <ul className="dropdown">
          
-              <li><Link to='/mencloth'>Clothings</Link></li>
-              <li><Link to='/menfw'>Footwears</Link></li>
+              <li><Link>Clothings</Link></li>
+              <li><Link>Footwears</Link></li>
 
             </ul>
           </li>
@@ -53,10 +33,10 @@ export const NavbarC = () => {
             Women's Fashion
             <span className="dropdown-indicator"></span>
             <ul className="dropdown">
-              <li><Link to='/womacc'>Accessories</Link></li>
-              <li><Link to='/womcloth'>Clothings</Link></li>
-              <li><Link to='/womfw'>Footwears</Link></li>
-              <li><Link to='/wombag'>Bags</Link></li>
+              <li><Link >Accessories</Link></li>
+              <li><Link>Clothings</Link></li>
+              <li><Link>Footwears</Link></li>
+              <li><Link>Bags</Link></li>
             
             </ul>
           </li>
@@ -64,8 +44,8 @@ export const NavbarC = () => {
             Watches
             <span className="dropdown-indicator"></span>
             <ul className="dropdown">
-              <li><Link to='/womwatch'>Women's watches</Link></li>
-              <li><Link to='/menwatch'>Men's watches</Link></li>
+              <li><Link>Women's watches</Link></li>
+              <li><Link>Men's watches</Link></li>
               
             </ul>
           </li>

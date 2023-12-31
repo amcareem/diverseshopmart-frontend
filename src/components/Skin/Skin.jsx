@@ -134,7 +134,7 @@ Fresh and white beauty cream</h5>
                 <img src={skin7} class="card-img-top" alt=""/>
                 <div class="card-body">
                     <h5 class="card-title">Cliara Rosehip Oil 10Ml</h5>
-                    <p class="card-text">LKR. 2,279 </p>
+                    <p class="card-text">LKR. 2,279</p>
                     <Rating
                         count={5}
                         size={24}
@@ -181,8 +181,7 @@ Fresh and white beauty cream</h5>
             <div class="card">
                 <img src={skin10} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">
-O'nelle Rose Oil Toner 100Ml</h5>
+                    <h5 class="card-title">O'nelle Rose Oil Toner 100Ml</h5>
                     <p class="card-text">LKR. 640 </p>
                     <Rating
                         count={5}
@@ -198,8 +197,7 @@ O'nelle Rose Oil Toner 100Ml</h5>
             <div class="card">
                 <img src={skin11} class="card-img-top" alt=""/>
                 <div class="card-body">
-                    <h5 class="card-title">
-Aushara Multani Mitti Powder - 50g</h5>
+                    <h5 class="card-title">Aushara Multani Mitti Powder - 50g</h5>
                     <p class="card-text">LKR. 620 </p>
                     <Rating
                         count={5}
@@ -211,8 +209,6 @@ Aushara Multani Mitti Powder - 50g</h5>
                     />
                 </div>
             </div>
-
-            
 
     </div>
 

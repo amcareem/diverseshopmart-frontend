@@ -11,7 +11,6 @@ import moonbtl from '../../assets/moonbtl.webp';
 import { Link } from 'react-router-dom';
 
 
-
 export const Products = () => {
   return (
     <div className='product'>
